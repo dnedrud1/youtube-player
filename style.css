@@ -1,0 +1,69 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+}
+
+header {
+  background-color: red;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  z-index: 1;
+  margin-top: 0px;
+}
+
+.content {
+  width:1020px;
+  height: 1300px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.wrapper {
+  float: left;
+  margin-top: 70px;
+}
+
+.video {
+  background-color: orange;
+  width:600px;
+  height: 400px;
+}
+
+.info {
+  background-color: yellow;
+  width:600px;
+  height:100px;
+  margin:10px 0px;
+}
+
+.moreinfo {
+  background-color: green;
+  width:600px;
+  height:100px;
+  margin:10px 0px;
+}
+
+.comments {
+  background-color: blue;
+  width:600px;
+  height:300px;
+  margin:10px 0px;
+}
+
+.previews {
+  background-color: purple;
+  width:400px;
+  height:1200px;
+  margin-left: 20px;
+}
+
+footer {
+  background-color: black;
+  width: 100%;
+  height: 100px;
+  position: relative;
+  margin-bottom: 0px;
+  margin-top: 50px;
+}
