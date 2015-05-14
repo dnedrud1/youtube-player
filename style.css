@@ -1,16 +1,79 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-color: gray;
+  background-color: #E8E8E8;
+  font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333333;
+}
+
+button {
+  padding: 8px;
+  border: 1px solid #D0D0D0;
+  border-radius: 3px;
+  background-color: #F5F5F5;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+button:hover {
+  border: 1px solid #929292;
 }
 
 header {
-  background-color: red;
+  background-color: white;
   width: 100%;
   height: 50px;
   position: fixed;
   z-index: 1;
   margin-top: 0px;
+  border-bottom: 1px solid #C5C5C5;
+}
+
+.head1 {
+  float: left;
+  width: 150px;
+  height: 60px;
+}
+
+.head2 {
+  width: 600px;
+  height: 60px;
+  margin: 10px auto 0px;
+}
+
+.head3 {
+  float: right;
+  width: 180px;
+  height: 60px;
+  margin-top: -80px;
+}
+.head1 img {
+  float: left;
+  margin-top: -15px;
+}
+
+.head3 img {
+  margin: 20px 5px 0px;
+}
+
+.profile {
+  border-radius: 50px;
+}
+
+.head3 button {
+  float: left;
+  margin: 20px 5px 0px;
+}
+
+#list {
+  float: left;
+}
+
+.search {
+  margin: -55px auto 0px;
+  width: 500px;
+  border: 1px solid #DADAC8;
+  height: 30px;
 }
 
 .content {
@@ -26,41 +89,41 @@ header {
 }
 
 .video {
-  background-color: orange;
+  background-color: white;
   width:600px;
-  height: 400px;
+  height: 450px;
 }
 
 .info {
-  background-color: yellow;
+  background-color: white;
   width:600px;
   height:100px;
   margin:10px 0px;
 }
 
 .moreinfo {
-  background-color: green;
+  background-color: white;
   width:600px;
   height:100px;
   margin:10px 0px;
 }
 
 .comments {
-  background-color: blue;
+  background-color: white;
   width:600px;
   height:300px;
   margin:10px 0px;
 }
 
 .previews {
-  background-color: purple;
+  background-color: white;
   width:400px;
   height:1200px;
   margin-left: 20px;
 }
 
 footer {
-  background-color: black;
+  background-color: white;
   width: 100%;
   height: 100px;
   position: relative;
