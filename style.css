@@ -97,15 +97,85 @@ header {
 .info {
   background-color: white;
   width:600px;
-  height:100px;
+  height:170px;
   margin:10px 0px;
+  box-shadow: -1px 1px 2px #BBBBBB;
+}
+
+.info h2 {
+  padding-top: 5px;
+  margin-left: 15px;
+  font-weight: normal;
+}
+
+.info1, .info2 {
+  width: 95%;
+  height: 50px;
+  margin: auto;
+  padding: 2px;
+}
+
+.divider {
+  width: 95%;
+  height: 0px;
+  margin: auto;
+  border-top: 1px solid #CFCFCF;
+}
+
+.generic {
+  float: left;
+}
+
+.uploader {
+  float: left;
+  font-size: 10px;
+  font-weight: bold;
+  margin-left: 10px
+}
+
+.subscribe {
+  float: left;
+  background-color: red;
+  color: white;
+  margin-left: -80px;
+  margin-top: 3px;
+}
+
+.views {
+  float: right;
+  margin-top: 0px;
+  font-size: 25px;
+}
+
+.info2-1 {
+  margin-top: 20px;
+  float: left;
+}
+
+.info2-2 {
+  margin-top: 20px;
+  margin-right: -20px;  
+  float: right;
+}
+
+.info2 a {
+  margin: 10px;
+  color: #B5B5B5;
+  text-decoration: none;
+}
+
+.info2 a:hover {
+  margin: 10px;
+  color: #8B8B8B;
+  text-decoration: none;
 }
 
 .moreinfo {
   background-color: white;
   width:600px;
-  height:100px;
+  height:150px;
   margin:10px 0px;
+  box-shadow: -1px 1px 2px #BBBBBB;
 }
 
 .comments {
@@ -113,6 +183,7 @@ header {
   width:600px;
   height:300px;
   margin:10px 0px;
+  box-shadow: -1px 1px 2px #BBBBBB;
 }
 
 .previews {
@@ -120,6 +191,29 @@ header {
   width:400px;
   height:1200px;
   margin-left: 20px;
+  padding-top: 5px;
+  box-shadow: -1px 1px 2px #BBBBBB;
+}
+
+.preview-video {
+  width: 95%;
+  height: 110px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.preview-video img {
+  float: left;
+  margin-right: 10px;
+}
+
+.preview-video p {
+  margin: 5px;
+  font-size: 14px;
+}
+
+.show-more {
+  text-align: center;
 }
 
 footer {
@@ -129,4 +223,5 @@ footer {
   position: relative;
   margin-bottom: 0px;
   margin-top: 50px;
+  border-top: 1px solid #C5C5C5;
 }
