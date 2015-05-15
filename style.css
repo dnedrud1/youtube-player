@@ -173,23 +173,46 @@ header {
 .moreinfo {
   background-color: white;
   width:600px;
-  height:150px;
+  height:160px;
   margin:10px 0px;
   box-shadow: -1px 1px 2px #BBBBBB;
 }
 
+.moreinfo p:first-of-type {
+  font-size: 14px;
+  margin-top: -10px;
+}
+
+.moreinfo h5 {
+  padding-top: 10px;
+}
+
+.moreinfo p, h5 {
+  margin-left: 15px;
+}
+
 .comments {
   background-color: white;
-  width:600px;
-  height:300px;
+  width:580px;
+  height:150px;
   margin:10px 0px;
   box-shadow: -1px 1px 2px #BBBBBB;
+  padding: 10px;
+}
+
+.profile-square {
+  float: left;
+}
+
+.comments textarea {
+  margin-left: 10px;
+  float: left;
 }
 
 .previews {
   background-color: white;
   width:400px;
-  height:1200px;
+  height:1150px;
   margin-left: 20px;
   padding-top: 5px;
   box-shadow: -1px 1px 2px #BBBBBB;
